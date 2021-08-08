@@ -1,0 +1,24 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Add Employee</title>  
+</head>  
+<body>  
+    <h1><b>Feedback Form</b></h1>
+    <h3>We would love to hear your suggestions, concerns or problems with anything so we can improve!
+      <br><br><br>
+      <hr align="left" width="100%">  
+    <form action = "/savedetails" method="post">  
+    <table>  
+        <tr><td><h3><b>Department</b></h3></td><td><input type="text" name="department" required=true></td></tr>  
+        <tr><td><h3><b>Feedback Type</h3><ul><li>Comments</li><li>Suggestions</li><li>Questions</li></ul></b></td><td><input type="text" name="feedback_type"></td></tr>  
+        <tr><td><h3><b>Describe Your Feedback</b></h3></td><td><input type="text" name="describe_your_feedback" required=true></td></tr>
+        <tr><td><h3><b>Name</b></h3></td><td><input type="text" name="name" required=true></td></tr>
+        <tr><td><h3><b>Email</b></h3></td><td><input type="text" name="email" required=true></td></tr>  
+        <br><br>
+        <br>
+        <tr><td><input type="submit" value="Submit"></td></tr>  
+    </table>  
+    </form>  
+</body>  
+</html>
